@@ -1,0 +1,9 @@
+---
+applications:
+- name: wordpressatosglobalnfs
+  memory: 1GB
+  instances: 1
+  random-route: false
+  buildpack: https://github.com/cloudfoundry/php-buildpack
+  services:
+  - ClearDB
